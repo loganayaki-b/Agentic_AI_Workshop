@@ -1,0 +1,12 @@
+🧳 Travel Assistant Output for chennai
+
+🌤️ Weather:
+The current weather in Chennai is 32.2°C with Partly cloudy.
+
+Here are some top tourist attractions in Chennai:
+* Arignar Anna Zoological Park
+* Chennai Snake Park
+* Guindy National Park
+* Madras Crocodile Bank
+* Marine Kingdom
+
