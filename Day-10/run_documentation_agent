@@ -1,0 +1,16 @@
+import markdown2
+from weasyprint import HTML
+import os
+
+temp_dir = "/path/to/temp_dir"  # TODO: Set this to your actual temp directory
+case_pdf_path = os.path.join(temp_dir, "case_booklet.pdf")
+
+# Define your Markdown content here
+case_md = """
+# Example Title
+
+This is an example Markdown document.
+"""
+
+html = markdown2.markdown(case_md)
+HTML(string=html).write_pdf(case_pdf_path)
